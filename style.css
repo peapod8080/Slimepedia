@@ -1,0 +1,136 @@
+#Banner{
+	width: 100%;
+}
+
+
+#Logo{
+	width: 600px;
+	transform: translate(350px, 0px);
+}
+
+
+#Login{
+	width: 3%;
+	transform: translate(-100px, 12.5px);
+}
+
+
+#Hamburger{
+	width: 3.5%;
+	transform: translate(-55px, 9px);
+}
+
+
+#SlimeTips{
+	font-size: 60px;
+	color: whitesmoke;
+	transform: translate(50px, 600px);
+}
+
+#GoResearch{
+	font-size: 35px;
+	color: whitesmoke;
+	transform: translate(950px, 650px);
+}
+
+#Slime1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#Slime2{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*#Slime1 > h2{
+	transform: translate(220px, 0px);
+}
+
+#Slime2 > h2{
+	transform: translate(220px, 200px);
+}
+
+#Slime1 > img {
+	transform: translate(200px, 0px);
+	width: 200px;
+	height: 200px;
+}
+
+#Slime2 > img {
+	transform: translate(200px, 200px);
+	width: 200px;
+	height: 200px;*/
+}
+
+.slime{
+	transform: translate(200px, 200px);
+	width: 5%;
+}
+
+.slimetext{
+	transform: translate(35px, 0px);
+}
+
+#Navigation{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#NavTitle{
+	transform: translate(400px, 20px);
+}
+
+#NavText1, #NavText2, #NavText3{
+	position: relative;
+	padding: 30px;
+	transform: translate(-170px, 50px);
+}
+
+
+body {
+	font-family: monospace;
+}
+
+
+li {
+	padding: 20px;
+	list-style-type: circle;
+}
+
+
+/***************************************/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#BigBetterBanner {
+	display: flex;
+}
+
+#Banner{
+	position: relative;
+}
+
+.slime{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+
+#Logo, #Login, #Hamburger, #BigBetterBanner > h1, #BigBetterBanner > h4 {
+	position: absolute;
+}
+
+
+
+
+
+
+
+
